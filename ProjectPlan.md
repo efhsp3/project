@@ -8,7 +8,7 @@ We would like to create a small (and maybe exandable) network of sensors that co
 
 ### High Level Implementation Details
 
-We plan to set up bluey boards with sound and dust sensors (as a measure of air quality) respectively. They will broadcast the sensor data in BLE beacons at regular intervals.
+We plan to set up bluey boards with sound and dust sensors (as a measure of air quality) respectively. They will broadcast the sensor data in BLE beacons at regular intervals - the method of sending this data out (though BLE beacons or some other) is still being disucssed.
 
 We plan to set up an Edison board that will monitor these BLE beacons and extract the sensor data from them. In addition we also plan to report on the meter readings from the water and electricity meters at regular intervals. 
 
@@ -43,7 +43,11 @@ A system like this could provide the user with information required to make resp
 Everything described above
 
 ## Block Diagram of System
-
+### Parts
+#### Intel Edison board
+#### Electronut Bluey boards
+#### REES52 Sound Detection sensor Module
+#### SHARP Air detection sensor dust sensor GP2Y1010AU0F KG017
 ## Risks
 1. Camera positioning, low light readings, occlusion of meter
 2. Communication of sensor data through BLE beacons 

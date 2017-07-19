@@ -2,7 +2,7 @@
 
 ## Brief Introduction
 
-Our plan to demonstrate our understanding of embedded systems by implementing a household monitoring solution. 
+Our plan is to demonstrate our understanding of embedded systems by implementing a household monitoring solution. 
 
 We would like to create a small (and maybe exandable) network of sensors that could report data on the parameter they are sensing and collect this information in a centrally accessible location. 
 
@@ -31,13 +31,13 @@ As responsible citizens and homeowners, we should all be constantly congnizant o
 A system like this could provide the user with information required to make responsible decisions about their lifestyle choices.
 
 ## Deliverables
-A frontend showing water or electricity usage patterns. Also information on the air and sound quality in this house.
-A small network of sensors collecting relevant data.
-An infrastructure to collect the data from the sensors and push into a centrally accessible database.
+1. A frontend showing water or electricity usage patterns. Also information on the air and sound quality in this house.
+2. A small network of sensors collecting relevant data.
+3. An infrastructure to collect the data from the sensors and push into a centrally accessible database.
 
 ### Minimal Demo
-At least 1 sensor sending out data through BLE beacons
-This data being received and displayed in a central location (Edison, cloud or even a phone app)
+1. At least 1 sensor sending out data through BLE beacons
+2. This data being received and displayed in a central location (Edison, cloud or even a phone app)
 
 ### Enhanced Demo
 Everything described above
@@ -45,8 +45,8 @@ Everything described above
 ## Block Diagram of System
 
 ## Risks
-+Camera positioning, low light readings, occlusion of meter
-+Communication of sensor data through BLE beacons 
-+Figuring out the hardware
+1. Camera positioning, low light readings, occlusion of meter
+2. Communication of sensor data through BLE beacons 
+3. Figuring out the hardware
 
 ## Timeline
